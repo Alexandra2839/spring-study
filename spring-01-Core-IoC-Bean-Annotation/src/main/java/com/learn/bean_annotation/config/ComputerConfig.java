@@ -1,12 +1,12 @@
 package com.learn.bean_annotation.config;
 
-import com.cydeo.bean_annotation.casefactory.Case;
-import com.cydeo.bean_annotation.casefactory.DellCase;
-import com.cydeo.bean_annotation.monitorfactory.AcerMonitor;
-import com.cydeo.bean_annotation.monitorfactory.Monitor;
-import com.cydeo.bean_annotation.monitorfactory.SonyMonitor;
-import com.cydeo.bean_annotation.motherboardfactory.AsusMotherboard;
-import com.cydeo.bean_annotation.motherboardfactory.Motherboard;
+import com.learn.bean_annotation.casefactory.Case;
+import com.learn.bean_annotation.casefactory.DellCase;
+import com.learn.bean_annotation.monitorfactory.AcerMonitor;
+import com.learn.bean_annotation.monitorfactory.Monitor;
+import com.learn.bean_annotation.monitorfactory.SonyMonitor;
+import com.learn.bean_annotation.motherboardfactory.AsusMotherboard;
+import com.learn.bean_annotation.motherboardfactory.Motherboard;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;

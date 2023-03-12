@@ -1,9 +1,9 @@
 package com.learn.bean_annotation;
 
 
-import com.cydeo.bean_annotation.casefactory.Case;
-import com.cydeo.bean_annotation.monitorfactory.Monitor;
-import com.cydeo.bean_annotation.motherboardfactory.Motherboard;
+import com.learn.bean_annotation.casefactory.Case;
+import com.learn.bean_annotation.monitorfactory.Monitor;
+import com.learn.bean_annotation.motherboardfactory.Motherboard;
 
 public class PC {
 
