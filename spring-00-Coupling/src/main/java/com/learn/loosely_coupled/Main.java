@@ -1,11 +1,11 @@
 package com.learn.loosely_coupled;
 
-import com.cydeo.loosely_coupled.casefactory.Case;
-import com.cydeo.loosely_coupled.casefactory.DellCase;
-import com.cydeo.loosely_coupled.monitorfactory.AcerMonitor;
-import com.cydeo.loosely_coupled.monitorfactory.Monitor;
-import com.cydeo.loosely_coupled.motherboardfactory.AsusMotherboard;
-import com.cydeo.loosely_coupled.motherboardfactory.Motherboard;
+import com.learn.loosely_coupled.casefactory.Case;
+import com.learn.loosely_coupled.casefactory.DellCase;
+import com.learn.loosely_coupled.monitorfactory.AcerMonitor;
+import com.learn.loosely_coupled.monitorfactory.Monitor;
+import com.learn.loosely_coupled.motherboardfactory.AsusMotherboard;
+import com.learn.loosely_coupled.motherboardfactory.Motherboard;
 
 
 
