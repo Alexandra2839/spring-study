@@ -1,8 +1,8 @@
 package com.learn.loosely_coupled;
 
-import com.cydeo.loosely_coupled.casefactory.Case;
-import com.cydeo.loosely_coupled.monitorfactory.Monitor;
-import com.cydeo.loosely_coupled.motherboardfactory.Motherboard;
+import com.learn.loosely_coupled.casefactory.Case;
+import com.learn.loosely_coupled.monitorfactory.Monitor;
+import com.learn.loosely_coupled.motherboardfactory.Motherboard;
 
 
 public class PC {
