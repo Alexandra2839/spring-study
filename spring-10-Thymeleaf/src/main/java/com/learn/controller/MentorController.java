@@ -1,25 +1,32 @@
 package com.learn.controller;
 
+import com.learn.model.Mentor;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/mentor")
 public class MentorController {
 
-    @RequestMapping("/register")
-    public String register(){
+    @GetMapping("/register")
+    public String register(Model model){
+
+        model.addAttribute("mentor", new Mentor());
 
 
 
-        return "mentor/register";
+        return "mentor/mentor-register";
     }
 
-    @RequestMapping("/drop")
-    public String drop(){
+//    @RequestMapping("/drop")
+//    public String drop(){
+//
+//
+//
+//        return "mentor/drop";
+//    }
 
 
-
-        return "mentor/drop";
-    }
 }
