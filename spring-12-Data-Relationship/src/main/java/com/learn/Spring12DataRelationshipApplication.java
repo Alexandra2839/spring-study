@@ -10,4 +10,6 @@ public class Spring12DataRelationshipApplication {
         SpringApplication.run(Spring12DataRelationshipApplication.class, args);
     }
 
+
+
 }
