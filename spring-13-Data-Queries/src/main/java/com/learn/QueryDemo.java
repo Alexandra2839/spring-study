@@ -1,6 +1,7 @@
 package com.learn;
 
 import com.learn.repository.DepartmentRepository;
+import com.learn.repository.EmployeeRepository;
 import com.learn.repository.RegionRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
@@ -11,9 +12,12 @@ public class QueryDemo implements CommandLineRunner {
     private final RegionRepository regionRepository;
     private final DepartmentRepository departmentRepository;
 
-    public QueryDemo(RegionRepository repository, DepartmentRepository departmentRepository) {
+    private final EmployeeRepository employeeRepository;
+
+    public QueryDemo(RegionRepository repository, DepartmentRepository departmentRepository, EmployeeRepository employeeRepository) {
         this.regionRepository = repository;
         this.departmentRepository = departmentRepository;
+        this.employeeRepository = employeeRepository;
     }
 
 
@@ -28,5 +32,8 @@ public class QueryDemo implements CommandLineRunner {
         System.out.println("findByDivision: " + departmentRepository.findByDivision("Health"));
         System.out.println("findDistinctTop3ByDivisionContaining: " + departmentRepository.findDistinctTop3ByDivisionContaining("Hea"));
         System.out.println("findByDivisionEndsWith: " + departmentRepository.findByDivisionEndsWith("ics"));
+        System.out.println(employeeRepository.retrieveEmployeeDetails());
+        System.out.println(employeeRepository.retrieveEmployeeSalary());
+
     }
 }
