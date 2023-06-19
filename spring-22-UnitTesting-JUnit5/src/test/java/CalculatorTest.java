@@ -1,10 +1,18 @@
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 class CalculatorTest {
+
+    @BeforeAll
+    static void setUpAll(){
+        System.out.println("BeforeAll");
+    }
+
+    @AfterAll
+    static void tearDownAll(){
+        System.out.println("AfterAll");
+    }
 
     @BeforeEach
     void setUpEach(){
